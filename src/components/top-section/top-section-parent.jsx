@@ -28,12 +28,10 @@ const TopSectionParent = () => {
         </div>
         <div className="info-panel">
           <p>
-            <p>
-              <span> In the United States </span> 44,616 properties have methe
-              criteria to become SRPLs.
-            </p>
-            <p>34,015 of those have not been mitigated as of December 2022.</p>
+            <span> In the United States </span> 44,616 properties have methe
+            criteria to become SRPLs.
           </p>
+          <p>34,015 of those have not been mitigated as of December 2022.</p>
         </div>
         <div className="info-panel">
           <p>
