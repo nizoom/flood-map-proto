@@ -1,0 +1,8 @@
+.top-section-parent {
+  display: flex;
+  flex-direction: column;
+}
+
+.top-section-banner {
+  display: flex;
+}
