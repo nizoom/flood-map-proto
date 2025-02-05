@@ -1,0 +1,20 @@
+.tabs-section {
+  display: flex;
+}
+
+.tab {
+  padding: 0 2%;
+  border: 1px solid black;
+  border-bottom: none;
+}
+.articles-wrapper {
+  display: flex;
+}
+
+.left-side-article {
+  text-align: center;
+}
+
+.right-side-article {
+  border: 1px solid black;
+}

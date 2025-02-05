@@ -1,8 +1,24 @@
 .top-section-parent {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .top-section-banner {
   display: flex;
+  flex-direction: row;
+}
+
+.info-panel-group {
+  display: flex;
+  justify-content: stretch;
+  max-height: 150px;
+}
+
+.info-panel {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
