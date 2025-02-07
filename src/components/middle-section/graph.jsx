@@ -53,8 +53,8 @@ class GraphComponent extends PureComponent {
               return value;
             }}
           />
-          <Bar dataKey="mitigated" stackId="a" fill="#8884d8" />
-          <Bar dataKey="notMitigated" stackId="a" fill="#82ca9d" />
+          <Bar dataKey="mitigated" stackId="a" fill="#FE7F2D" />
+          <Bar dataKey="notMitigated" stackId="a" fill="#619B8A" />
         </BarChart>
       </ResponsiveContainer>
     );

@@ -8,11 +8,14 @@ const MiddleSectionParent = () => {
   return (
     <section className="middle-section-parent">
       <div className="left-panel-wrapper" id="panel">
-        <h3>
-          Efforts to reduce flood risk or "mitigation" are falling behind
-          climate change and risky new development, so the number of SRLPs keep
-          rising.
-        </h3>
+        <span className="middle-caption">
+          <span>
+            Efforts to reduce flood risk or "mitigation" are falling behind{" "}
+          </span>
+          climate change and risky new development, so the number of SRLPs{" "}
+          <span>keep rising. </span>
+        </span>
+
         <StateDropdown />
         <GraphComponent />
       </div>

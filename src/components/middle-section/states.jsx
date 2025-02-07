@@ -60,7 +60,7 @@ const StateDropdown = () => {
         Filter by state:
       </label>
       <select name="states" id="state-select" select="New York">
-        <option value="--"> </option>
+        <option value=""> --Select--</option>
         {states.map((state) => (
           <option key={state.code} value={state.code}>
             {state.name}
@@ -72,12 +72,12 @@ const StateDropdown = () => {
         Filter by county{" "}
       </label>
       <select name="states" id="state-select">
-        <option value="">--Please choose a state--</option>
-        {states.map((state) => (
+        <option value="">--Select--</option>
+        {/* {states.map((state) => (
           <option key={state.code} value={state.code}>
             {state.name}
           </option>
-        ))}
+        ))} */}
       </select>
     </div>
   );
