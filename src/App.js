@@ -4,7 +4,7 @@ import BottomSectionParent from "./components/bottom-section/bottom-parent";
 import MiddleSectionParent from "./components/middle-section/middle-section-parent";
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{ padding: "15px" }}>
       <div>
         <TopSectionParent />
       </div>
