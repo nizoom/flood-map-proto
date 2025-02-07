@@ -18,7 +18,6 @@ const data = Array.from({ length: (2024 - 1980) / 2 + 1 }, (_, i) => {
     mitigated: Math.floor(800 + i * 180 + Math.random() * 250), // Slightly lower but increasing
   };
 });
-console.log(data);
 
 class GraphComponent extends PureComponent {
   render() {

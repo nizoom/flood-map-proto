@@ -2,6 +2,7 @@ import React from "react";
 import GraphComponent from "./graph";
 import MapSection from "./map";
 import "../css/middle-section.css";
+import StateDropdown from "./states";
 
 const MiddleSectionParent = () => {
   return (
@@ -12,11 +13,12 @@ const MiddleSectionParent = () => {
           climate change and risky new development, so the number of SRLPs keep
           rising.
         </h3>
+        <StateDropdown />
         <GraphComponent />
       </div>
       <div className="right-panel-wrapper" id="panel">
         {/* MAPP ASSET GOES HERE */}
-        MAP GOES HERE
+        <MapSection />
       </div>
     </section>
   );
